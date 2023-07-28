@@ -1,0 +1,84 @@
+/*
+#main{
+	background-color:lightgrey;
+	height: 750px;
+	width: 1300px;
+	margin: 0 auto;
+
+}
+#main>h1{
+	text-align: center;
+	font-size: 50px;
+	margin-top: 20px;
+}
+.nav{
+	width:900px;
+	background-color: #FF55BB;
+	padding: 20px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.nav a{
+	font-size: 20px;
+	text-decoration: none;
+	padding: 15px 30px; 
+}
+#child{
+	display: flex;
+    margin-left: 180px;
+	margin-top: 8px;
+}
+.body-left{
+	width: 680px;
+	height: 480px;
+	background-color: white;
+}
+.body-left h1{
+	text-align: center;
+}
+.body-right{
+	width: 254px;
+	height: 480px;
+	background-color: #FF55BB;
+	margin-left: 8px; 
+	text-align: center;
+
+}
+.body-right li{
+     text-align: justify;
+     text-decoration: underline;
+     color: #9336B4;
+     font-family: impact;
+     font-weight: smaller;
+
+
+}
+.footer{
+    width:925px;
+	background-color: white;
+	padding: 10px;
+	margin: 0 auto;
+	margin-top: 8px;
+}*/
+#tv_container {
+    width: 360px; 
+    height: 800px; 
+    position: relative;
+}
+#tv_container:after {
+    content: '';
+    display: block;
+  background: url('http://mediacentral.ie/snapchat/wp-content/uploads/2016/02/Cell.jpg') no-repeat top left transparent;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    z-index: 10;
+}
+#tv_container video {
+    position: absolute;
+    top: 30px; 
+    left: 40px; 
+    z-index: 5;
+}
